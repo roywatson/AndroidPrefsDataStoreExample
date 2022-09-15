@@ -12,9 +12,9 @@ This is a simple example that strips out a lot of generally accepted architectur
 
 ##### Branches:
 
-"start" branch is the raw templated project created by Android Studio Chipmunk | 2021.2.1 Patch 2. This is supplied for comparison purposes.  ***It appears you are currently on this branch.***
+"start" branch is the raw templated project created by Android Studio Chipmunk | 2021.2.1 Patch 2. This is supplied for comparison purposes. 
 
-"complete" branch is the example/tutorial application where the "magic"😀 happens. 
+"complete" branch is the example/tutorial application where the "magic"😀 happens.  ***It appears you are currently on this branch.***
 
 ##### This example demonstrates/teaches:
 
