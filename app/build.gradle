@@ -1,15 +1,17 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.compose'
 }
 
 android {
-    compileSdk 32
+    namespace 'com.delasystems.androidprefsdatastoreexample'
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.delasystems.androidprefsdatastoreexample"
         minSdk 21
-        targetSdk 32
+        targetSdk 35
         versionCode 1
         versionName "1.0"
 
@@ -35,9 +37,9 @@ android {
     buildFeatures {
         compose true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion compose_version
-    }
+//    composeOptions {
+//        kotlinCompilerExtensionVersion compose_version
+//    }
     packagingOptions {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'

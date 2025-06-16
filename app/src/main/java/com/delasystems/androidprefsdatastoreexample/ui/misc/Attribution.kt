@@ -19,13 +19,17 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 */
 package com.delasystems.androidprefsdatastoreexample.ui.misc
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.delasystems.androidprefsdatastoreexample.R
 import com.delasystems.androidprefsdatastoreexample.ui.theme.fonts
 
 @Composable
@@ -34,20 +38,20 @@ fun Attribution() {
         text = "Sample Code by:",
         fontSize = 18.sp,
     )
-    Text(
-        text = "R O Y  W A T S O N",
-        fontFamily = fonts,
-        fontWeight = FontWeight.Normal,
-        fontSize = 30.sp,
+    Image(
+        painterResource(R.drawable.logo_text_tagline),
+        contentDescription = "Roy Watson logo",
+        modifier = Modifier
+            .width(300.dp)
+            .padding(vertical = 25.dp),
     )
     Text(
-        text = "rwatson@dela.com",
+        text = "rwatson@roywatson.com",
         fontSize = 22.sp,
     )
     Text(
-        text = "www.dela.com",
+        text = "www.roywatson.com",
         fontSize = 22.sp,
         modifier = Modifier.padding(start = 0.dp, top = 5.dp, end = 0.dp, bottom = 15.dp)
     )
-
 }

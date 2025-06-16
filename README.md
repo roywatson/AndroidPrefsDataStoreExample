@@ -2,11 +2,9 @@
 
 ##       Roy Watson
 
-rwatson@dela.com
+rwatson@roywatson.com
 
-www.dela.com
-
-![Screenshot_1663205661](./Screenshot_1663205661.png)
+www.roywatson.com
 
 This is a simple example that strips out a lot of generally accepted architectural components and other proclaimed best practices. It is using the minimum of dependencies, frameworks and libraries in order to avoid obscuring the illustration of using androidx's *PreferencesDataStore*. 
 
@@ -39,6 +37,8 @@ First, in com.delasystems.prefsdatastore.data.MyPreferences.kt, I created a data
 Next I created a repository to handle the actual storing and retrieval of the preferences. The methods in the repository are called from the ViewModel in response to stimuli from the UI in MainActivity.
 
 You can find a reference to using this API at https://developer.android.com/codelabs/android-preferences-datastore#4 .
+
+15 June 2025 - Update dependencies and build tools using Android Studio Meerkat Feature Drop | 2024.3.2 Patch 1 and to update my personal branding.
 
 Thank you and if you have ny comments or questions please feel free to contact me at rwatson@dela.com
 
